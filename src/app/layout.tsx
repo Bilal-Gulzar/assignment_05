@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Libre_Bodoni, Rye, Playfair_Display, Lato , Oswald} from "@next/font/google";
+import { Libre_Bodoni, Rye, Playfair_Display, Lato , Oswald} from "next/font/google";
 
 
 import "./globals.css";
