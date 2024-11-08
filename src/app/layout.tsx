@@ -1,16 +1,33 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
+import { Libre_Bodoni, Rye, Playfair_Display, Lato , Oswald} from "@next/font/google";
+
+
 import "./globals.css";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
+
+const libreBodoni = Libre_Bodoni({
+  weight: ["400", "700"], // Optional: You can specify the weights you need
+  subsets: ["latin"], // Optional: Specify subsets, e.g., latin, cyrillic, etc.
 });
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
+
+const rye = Rye({
+  weight: "400", // Corrected: Only use "400" for Rye
+  subsets: ["latin"], // Specify the latin subset
+});
+const playfairDisplay = Playfair_Display({
+  weight: ["400", "700"], // Use regular and bold weights
+  subsets: ["latin"], // Specify Latin subset (you can add others like "latin-ext")
+});
+
+const lato = Lato({
+  weight: ["400", "700"], // Specify the weights you need
+  subsets: ["latin"], // Specify the subset (e.g., latin)
+});
+
+
+const oswald = Oswald({
+  weight: ["400", "700"], // Regular (400) and Bold (700)
+  subsets: ["latin"], // Specify the subset (e.g., latin)
 });
 
 export const metadata: Metadata = {
@@ -26,7 +43,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        // className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${libreBodoni.className} antialiased`}
       >
         {children}
       </body>
