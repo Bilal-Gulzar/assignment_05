@@ -17,8 +17,12 @@ function TrendyCollection() {
               alt="Component 17.jpg"
             />
           </div>
-          <p className="text-[#938965] text-xl mt-7 sm:mt-10 sm:text-[27px]">Cable Chain Chokar</p>
-          <p className="text-[#938965] text-xl sm:text-[27px] text-right">₹20,000</p>
+          <p className="text-[#938965] text-xl mt-7 sm:mt-10 sm:text-[27px]">
+            Cable Chain Chokar
+          </p>
+          <p className="text-[#938965] text-xl sm:text-[27px] text-right">
+            ₹20,000
+          </p>
         </div>
         <div className="flex max-w-[375px] flex-col">
           <div className="rounded-[10px]">
@@ -29,8 +33,12 @@ function TrendyCollection() {
               alt="/Component 23.jpg"
             />
           </div>
-          <p className="text-[#938965]  mt-7 sm:mt-10 text-[27px]">Link Chain Earrings</p>
-          <p className="text-[#938965]  text-xl sm:text-[27px] text-right">₹20,000</p>
+          <p className="text-[#938965]  text-xl mt-7 sm:mt-10 sm:text-[27px]">
+            Link Chain Earrings
+          </p>
+          <p className="text-[#938965]  text-xl sm:text-[27px] text-right">
+            ₹20,000
+          </p>
         </div>
         <div className="flex max-w-[375px] flex-col">
           <div className="rounded-[10px]">
@@ -41,8 +49,12 @@ function TrendyCollection() {
               alt="Component 21.png"
             />
           </div>
-          <p className="text-[#938965]  mt-7 sm:mt-10 text-[27px]">Yona Signet Ring</p>
-          <p className="text-[#938965] text-xl sm:text-[27px] text-right">₹20,000</p>
+          <p className="text-[#938965]  text-xl  mt-7 sm:mt-10 sm:text-[27px]">
+            Yona Signet Ring
+          </p>
+          <p className="text-[#938965] text-xl sm:text-[27px] text-right">
+            ₹20,000
+          </p>
         </div>
         <div className="flex max-w-[375px] flex-col">
           <div className="rounded-[10px]">
@@ -53,8 +65,12 @@ function TrendyCollection() {
               alt="Component 22.png"
             />
           </div>
-          <p className="text-[#938965]  mt-7 sm:mt-10 text-[27px]">Anna Ribbed Bangle</p>
-          <p className="text-[#938965]  text-xl sm:text-[27px] text-right">₹20,000</p>
+          <p className="text-[#938965]  text-xl  mt-7 sm:mt-10 sm:text-[27px]">
+            Anna Ribbed Bangle
+          </p>
+          <p className="text-[#938965]  text-xl sm:text-[27px] text-right">
+            ₹20,000
+          </p>
         </div>
       </div>
     </div>
