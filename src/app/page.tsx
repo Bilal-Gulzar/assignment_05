@@ -17,7 +17,7 @@ export default function Home() {
       <Heroection />
       <ShopByCategory />
       <div className="max-w-[1920px] xl:mx-auto lg:h-[300.59px] mx-5 lg:mx-0 mb-20 lg:mb-0 flex-wrap mt-24 flex justify-center gap-5  xl:gap-20">
-        <div className=" text-center flex border lg:border-none lg:shadow-none shadow-md lg:justify-start justify-center  gap-6 flex-col items-center py-10 lg:py-0">
+        <div className=" text-center flex border rounded-md lg:border-none lg:shadow-none shadow-md lg:justify-start justify-center  gap-6 flex-col items-center py-10 lg:py-0">
           <Svg1 />
           <div className="">
             <h3 className="font-[700] text-[20px] leading-[21.6px] ">
@@ -30,7 +30,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className=" text-center py-10 lg:py-0 border lg:border-none lg:shadow-none shadow-md lg:justify-start justify-center flex  gap-6 flex-col items-center">
+        <div className=" text-center py-10 lg:py-0 rounded-md border lg:border-none lg:shadow-none shadow-md lg:justify-start justify-center flex  gap-6 flex-col items-center">
           <Svg3 />
           <div>
             <h3 className="font-[700] text-[20px] leading-[21.6px] ">
@@ -43,7 +43,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="text-center  border lg:border-none lg:shadow-none shadow-md lg:justify-start justify-center flex  gap-6 flex-col items-center py-10 lg:py-0">
+        <div className="text-center  border rounded-md lg:border-none lg:shadow-none shadow-md lg:justify-start justify-center flex  gap-6 flex-col items-center py-10 lg:py-0">
           <Svg2 />
           <div>
             <h3 className="font-[700] text-[20px] leading-[21.6px] ">
